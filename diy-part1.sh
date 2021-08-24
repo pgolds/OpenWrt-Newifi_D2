@@ -11,10 +11,10 @@
 # fw876/helloworld
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.defaultault
 
-echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-
-#sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
+# echo 'src-git helloworld https://github.com/fw876/helloworld' >> feeds.conf.default
 
 #sed -i '$a src-git passwall https://github.com/xiaorouji/openwrt-passwall' feeds.conf.default
 
-#sed -i '$a src-git helloworld https://github.com/P3TERX/helloworld' feeds.conf.default
+sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
+sed -i '$a src-git luci-app-udp2raw https://github.com/sensec/luci-app-udp2raw.git' feeds.conf.default
+sed -i '$a src-git openwrt-udp2raw https://github.com/sensec/openwrt-udp2raw.git' feeds.conf.default
