@@ -18,4 +18,4 @@
 sed -i '$a src-git helloworld https://github.com/fw876/helloworld' feeds.conf.default
 
 git clone https://github.com/sensec/luci-app-udp2raw.git package/luci-app-udp2raw
-git clone https://github.com/sensec/openwrt-udp2raw.git package/openwrt-udp2raw
+git clone https://github.com/pgolds/openwrt-udp2raw.git package/openwrt-udp2raw
